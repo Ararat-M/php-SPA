@@ -1,0 +1,149 @@
+input[type="date"] {
+    position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.main-container {
+    flex-direction: row;
+    height: 785px;
+}
+
+.main-text-field {
+    margin-bottom: 25px;
+}
+
+.main-span {
+    margin-left: 10px;
+}
+
+.main-p {
+    font-size: 50px;
+}
+
+.form-field {
+    margin-top: 130px;
+    margin-left: 70px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 70px 50px 65px;
+}
+
+.form-input {
+    min-width: 340px;
+    min-height: 65px;
+}
+
+.form-input:not(:last-child) {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.form-label-date {
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.form-input-date {
+    font-size: 18px;
+}
+
+.form-label {
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.special-offer-card {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 140px;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -16.9%, rgba(53, 65, 83, 0) 90.7%) no-repeat 0/260px 140px, url("../img/massage-spec-offer.jpg") no-repeat 0/260px 140px;
+}
+
+.special-offer-card:hover {
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -16.9%, rgba(53, 65, 83, 0) 80.7%) no-repeat 0/260px 140px, url("../img/massage-spec-offer.jpg") no-repeat 0/260px 140px;
+}
+
+.special-offer-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 260px;
+    width: calc(380px - 260px);
+    height: 100%;
+    background-color:#1E2C30;
+    color: #fff;
+    border: none;
+}
+
+.special-offer-card-info-text {
+    font-size: 12px;
+}
+
+.special-offer-card-info-text:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.section-offers-container {
+    background-color: #fff;
+    padding: 60px 20px 20px;
+}
+
+.section-offers-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-offers-list-item {
+    max-width: 33.3%;
+}
+.section-offers-list-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.section-offers-list-item-img {
+    width: 100%;
+    height: 200px;
+}
+
+.section-offers-list-item-header {
+    margin-top: 16px;
+    margin-bottom: 13px;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.31px;
+}
+
+.section-offers-list-item-info {
+    margin-bottom: 17px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+}
+
+.section-offers-list-item-btn {
+    padding: 18px 32px;
+    background: none;
+    border: 2px solid #5C8692;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
